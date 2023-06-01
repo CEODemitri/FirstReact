@@ -16,14 +16,14 @@ function App() {
             <img src={ require('./pastel.jpg') } />
           </div>
       </div>
-
+      <HomePage />
     </div>
   );
 }
 
 function HomePage() {
   return (
-    <>
+    <div className='dominoe'>
       <header>
         <div className="hero-text">
           <h1></h1>
@@ -46,7 +46,7 @@ function HomePage() {
         <div className="half-00"></div>
         <div className="half-01"></div>
       </footer>
-    </>
+    </div>
   ); 
 }
 

@@ -1,8 +1,13 @@
+import classes from './HomePage.module.css';
+
 function HomePage(props) {
 	return (
 		<>
-			<h1>King {props.name}</h1>
-			<h2>Prince {props.prince}</h2>
+			<div className = {classes.container}>	
+				<h1 className = {classes.king}>
+					King {props.name}</h1>
+				<h2>Prince {props.prince}</h2>
+			</div>
 		</>
 	);
 }

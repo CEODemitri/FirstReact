@@ -18,7 +18,7 @@ function App() {
             <div className="left-hero">
               <h1>
                 <p>A Trip Through The Cosmos</p>
-                <p className="perfect">All <span>Aboard</span></p>
+                <p className="perfect">All <span>Aboard</span> </p>
                 <p>Astronaut Demitri</p>
               </h1>
             </div>
